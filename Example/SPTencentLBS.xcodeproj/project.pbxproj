@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18FA2497292F76B100924032 /* BaseMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FA2496292F76B100924032 /* BaseMapViewController.m */; };
+		18FA249A292F76BC00924032 /* BaseTestSerialLocationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FA2499292F76BB00924032 /* BaseTestSerialLocationController.m */; };
+		18FA249D292F76CE00924032 /* SerialLocationAloneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FA249C292F76CE00924032 /* SerialLocationAloneViewController.m */; };
+		18FA24A0292F76D900924032 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FA249F292F76D900924032 /* ViewController.m */; };
+		18FA24A5292F76E700924032 /* UserPrivacyViewContoller.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FA24A2292F76E600924032 /* UserPrivacyViewContoller.m */; };
+		18FA24A6292F76E700924032 /* TencentLBSDRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FA24A3292F76E600924032 /* TencentLBSDRViewController.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* SPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* SPAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* SPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* SPViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -38,7 +43,19 @@
 
 /* Begin PBXFileReference section */
 		09D63134AAD378F0D44FCE65 /* Pods-SPTencentLBS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPTencentLBS_Tests.release.xcconfig"; path = "Target Support Files/Pods-SPTencentLBS_Tests/Pods-SPTencentLBS_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		2203A447081D765F24A89F2A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		18FA2495292F76B100924032 /* BaseMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseMapViewController.h; sourceTree = "<group>"; };
+		18FA2496292F76B100924032 /* BaseMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseMapViewController.m; sourceTree = "<group>"; };
+		18FA2498292F76BB00924032 /* BaseTestSerialLocationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTestSerialLocationController.h; sourceTree = "<group>"; };
+		18FA2499292F76BB00924032 /* BaseTestSerialLocationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTestSerialLocationController.m; sourceTree = "<group>"; };
+		18FA249B292F76CE00924032 /* SerialLocationAloneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SerialLocationAloneViewController.h; sourceTree = "<group>"; };
+		18FA249C292F76CE00924032 /* SerialLocationAloneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SerialLocationAloneViewController.m; sourceTree = "<group>"; };
+		18FA249E292F76D900924032 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18FA249F292F76D900924032 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18FA24A1292F76E600924032 /* UserPrivacyViewContoller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserPrivacyViewContoller.h; sourceTree = "<group>"; };
+		18FA24A2292F76E600924032 /* UserPrivacyViewContoller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserPrivacyViewContoller.m; sourceTree = "<group>"; };
+		18FA24A3292F76E600924032 /* TencentLBSDRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TencentLBSDRViewController.m; sourceTree = "<group>"; };
+		18FA24A4292F76E700924032 /* TencentLBSDRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TencentLBSDRViewController.h; sourceTree = "<group>"; };
+		2203A447081D765F24A89F2A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		278283A4F2BE91490D07CC93 /* Pods_SPTencentLBS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SPTencentLBS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B5177845BD441EF25EF8C55 /* Pods-SPTencentLBS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPTencentLBS_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SPTencentLBS_Tests/Pods-SPTencentLBS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* SPTencentLBS_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SPTencentLBS_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,8 +68,6 @@
 		6003F59B195388D20070C39A /* SPTencentLBS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SPTencentLBS-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* SPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* SPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* SPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* SPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* SPTencentLBS_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SPTencentLBS_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -65,8 +80,8 @@
 		8C522F7B0A1BB63515C4F41E /* Pods-SPTencentLBS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPTencentLBS_Example.debug.xcconfig"; path = "Target Support Files/Pods-SPTencentLBS_Example/Pods-SPTencentLBS_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		956265B53453C6A2DC53D0FA /* Pods_SPTencentLBS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SPTencentLBS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		984A682A8D89EBD20DEA63EB /* Pods-SPTencentLBS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPTencentLBS_Example.release.xcconfig"; path = "Target Support Files/Pods-SPTencentLBS_Example/Pods-SPTencentLBS_Example.release.xcconfig"; sourceTree = "<group>"; };
-		CF96D45E2A62F3EC0564BD92 /* SPTencentLBS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SPTencentLBS.podspec; path = ../SPTencentLBS.podspec; sourceTree = "<group>"; };
-		E01F1B0545A5B4051F38A6F0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		CF96D45E2A62F3EC0564BD92 /* SPTencentLBS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SPTencentLBS.podspec; path = ../SPTencentLBS.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E01F1B0545A5B4051F38A6F0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +118,6 @@
 				4B5177845BD441EF25EF8C55 /* Pods-SPTencentLBS_Tests.debug.xcconfig */,
 				09D63134AAD378F0D44FCE65 /* Pods-SPTencentLBS_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -144,14 +158,24 @@
 		6003F593195388D20070C39A /* Example for SPTencentLBS */ = {
 			isa = PBXGroup;
 			children = (
+				18FA2495292F76B100924032 /* BaseMapViewController.h */,
+				18FA2496292F76B100924032 /* BaseMapViewController.m */,
+				18FA2498292F76BB00924032 /* BaseTestSerialLocationController.h */,
+				18FA2499292F76BB00924032 /* BaseTestSerialLocationController.m */,
+				6003F5A8195388D20070C39A /* Images.xcassets */,
+				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
+				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
+				18FA249B292F76CE00924032 /* SerialLocationAloneViewController.h */,
+				18FA249C292F76CE00924032 /* SerialLocationAloneViewController.m */,
 				6003F59C195388D20070C39A /* SPAppDelegate.h */,
 				6003F59D195388D20070C39A /* SPAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* SPViewController.h */,
-				6003F5A6195388D20070C39A /* SPViewController.m */,
-				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
-				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				18FA24A4292F76E700924032 /* TencentLBSDRViewController.h */,
+				18FA24A3292F76E600924032 /* TencentLBSDRViewController.m */,
+				18FA24A1292F76E600924032 /* UserPrivacyViewContoller.h */,
+				18FA24A2292F76E600924032 /* UserPrivacyViewContoller.m */,
+				18FA249E292F76D900924032 /* ViewController.h */,
+				18FA249F292F76D900924032 /* ViewController.m */,
 			);
 			name = "Example for SPTencentLBS";
 			path = SPTencentLBS;
@@ -258,6 +282,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -364,9 +389,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18FA24A0292F76D900924032 /* ViewController.m in Sources */,
 				6003F59E195388D20070C39A /* SPAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* SPViewController.m in Sources */,
+				18FA24A5292F76E700924032 /* UserPrivacyViewContoller.m in Sources */,
+				18FA2497292F76B100924032 /* BaseMapViewController.m in Sources */,
+				18FA249D292F76CE00924032 /* SerialLocationAloneViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				18FA24A6292F76E700924032 /* TencentLBSDRViewController.m in Sources */,
+				18FA249A292F76BC00924032 /* BaseTestSerialLocationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
